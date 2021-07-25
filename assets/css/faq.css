@@ -1,0 +1,72 @@
+/* --accordion-- */
+.faq-accordion .card {
+    margin-bottom: 30px;
+    border: 1px solid #cecdcd;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.faq-accordion .card .card-header {
+    border: 0;
+    padding: 0;
+}
+
+.faq-accordion .card .card-header .btn-header-link {
+    display: block;
+    text-align: left;
+    background: #f5f5f5;
+    color: #3084bb;
+    font-weight: 500;
+    padding: .25rem .75rem;
+}
+
+.faq-accordion .card .card-header .btn-header-link.focus,
+.faq-accordion .card .card-header .btn-header-link:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.faq-accordion .card .card-header .btn-header-link:after {
+    content: "\f106";
+    font-family: 'FontAwesome';
+    font-weight: 900;
+    float: right;
+}
+
+.faq-accordion .card .card-header .btn-header-link.collapsed {
+    background: #f5f5f5;
+    color: #666666;
+    font-weight: 400;
+    box-shadow: none;
+}
+
+.faq-accordion .card .card-header .btn-header-link.collapsed:after {
+    content: "\f107";
+}
+
+.faq-accordion .card .card-body {
+    background-color: #f5f5f5;
+    border-top: 1px solid #cecdcd;
+    padding: .25rem .75rem;
+}
+
+
+/* tab wrapper */
+.faq-tab-wrapper {
+    background-color: #f5f5f5;
+    border: 1px solid #cecdcd;
+    border-radius: .25rem;
+    overflow: hidden;
+}
+
+.faq-tab-wrapper .nav-pills .nav-link {
+    border-radius: 0;
+    padding: .25rem .75rem;
+}
+
+.faq-tab-wrapper .nav-pills .nav-link.active,
+.faq-tab-wrapper .nav-pills .show>.nav-link {
+    color: #3084bb;
+    background-color: #f5f5f5;
+    font-weight: 500;
+}

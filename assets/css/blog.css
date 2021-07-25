@@ -1,0 +1,59 @@
+.blog-main-content .container-table .container-cell {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.blog-main-content .container-table.odd .container-cell:first-child {
+    width: 60%;
+}
+
+.blog-main-content .container-table.even .container-cell:first-child {
+    width: 40%;
+}
+
+@media (max-width: 767.98px) {
+    .blog-main-content .container-table.odd .container-cell:first-child {
+        width: 100%;
+    }
+    .blog-main-content .container-table.even .container-cell:first-child {
+        width: 100%;
+    }
+}
+
+.blog-main-content .container-table .img-wrapper img {
+    width: 100%;
+}
+
+.blog-main-content .container-table .content-wrapper {
+    padding: 16px 16px;
+}
+
+@media (min-width: 1024px) {
+    .blog-main-content .container-table .content-wrapper {
+        padding: 16px 70px;
+    }
+}
+
+.blog-main-content .content-wrapper .az_custom_heading {
+    margin: 0;
+}
+
+.blog-main-content .content-wrapper p {
+    margin-bottom: 0;
+}
+
+.blog-main-content .blog-grid .post-meta {
+    padding: 16px 0;
+}
+
+.blog-main-content.blog-grid .post-item {
+    margin-bottom: 0;
+}
+
+.blog-main-content .post-item .post-comment-icon {
+    float: left;
+}
+
+.blog-main-content .post-item .readmore {
+    margin-top: 16px;
+}
