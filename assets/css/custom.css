@@ -65,7 +65,8 @@
 }
 
 .desk-custom-top {
-    background: #0D914F;
+    /* background: #0D914F; */
+    background: #cdd9e0;
     text-align: right;
 }
 .desk-custom-top ul {
@@ -79,6 +80,7 @@
     font-size: 14px;
     font-weight: 400;
     color: #ffffff;
+    color: #000000;
     text-transform: uppercase;
     padding: 0 10px;
     display: block;
@@ -143,9 +145,11 @@
 
 .desk-custom-category-wrpper {
     background-color: #0D914F;
+    background-color: #cdd9e0;
 }
 .category-inner {
     color: #ffffff;
+    color: #000000;
     min-width: 270px;
     max-width: 320px;
     display: flex;
@@ -161,6 +165,7 @@
 }
 .category-inner .menu-icon, .category-inner .menu-icon::before, .category-inner .menu-icon::after {
     background-color: #ffffff;
+    background-color: #000000;
     display: inline-block;
     width: 18px;
     height: 2px;
@@ -548,6 +553,7 @@
     background-color: #ffffff;
     width: 100%;
     border: 2px solid #0D914F;
+    border: 2px solid #cdd9e0;
     transition: all .5s ease-in-out;
 }
 .cs-btn-submit {
@@ -747,10 +753,12 @@
 /* --footer design start-- */
 .logo-wapper p, .link-wapper h3, .faddress-wrapper h3, .kreen-newsletter.style-01 .title, .footer .kreen-newsletter.style-01 .subtitle, .footer .kreen-newsletter.style-01 .desc, .link-wapper ul li a, .faddress-wrapper p, .section-010 p, .section-010 a {
     color: #ffffff;
+    color: #000000;
     font-family: 'Montserrat', sans-serif;
 }
 .footer .section-001, .footer .section-010 {
     background-color: #0D914F;
+    background-color: #cdd9e0;
 }
 .logo-wapper {
     margin-bottom: 24px;
